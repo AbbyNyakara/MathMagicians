@@ -1,4 +1,4 @@
-# React Calculator App 
+# React Calculator  
 
 CALCULATOR APP - Javascript capstone project 
 
