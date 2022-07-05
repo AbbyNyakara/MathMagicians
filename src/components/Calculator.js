@@ -27,8 +27,9 @@ class Calculator extends React.Component {
         <button>.</button>
         <button className='orange'>=</button>
       </div>
+      
     )
   }
-}
+};
 
 export default Calculator;
