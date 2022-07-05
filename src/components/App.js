@@ -1,4 +1,4 @@
-/* eslint-disable */
+/* eslint-disable react/prefer-stateless-function */
 
 import React from 'react';
 import Calculator from './Calculator';
