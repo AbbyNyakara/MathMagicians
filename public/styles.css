@@ -14,15 +14,15 @@ body {
   display: grid;
   place-content: center;
   border: 2px solid #999;
-  width: 600px;
+  width: 400px;
   margin: 10vh auto 0;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .grid > button {
   border: 0.6px solid #999;
-  line-height: 70px;
-  font-size: 25px;
+  line-height: 50px;
+  font-size: 20px;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -45,3 +45,43 @@ body {
 .orange {
   background-color: var(--orange);
 }
+
+.nav-bar {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: blue;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.home-page {
+  padding: 20px;
+}
+
+.calc-container {
+  display: grid;
+  grid-template-columns:30% 70%;
+  align-items: baseline;
+  padding: 20px;
+}
+
+.quote {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 150px;
+  font-weight: 500;
+}
+
